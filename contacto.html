@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto sergie code</title>
+    <meta name="author" content="Nelson Xiori" >
+    <meta name="description"  content="esta es mi primera pagina web">
+    <meta name="keywords" content="tutorial de desarrollo web sergie code">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico.png">
+    <!--google fontos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https: //fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> QUIERES SABER MAS CONTACTANOS</h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li> <a href="preferencias.html">Preferencias</a></li>
+                <li> <a href="audiovisuales.html">Audiovisuales</a></li>
+                <li> <a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="sub1"> Escribenos Seremos tu mejor respuesta No dudes </h2>
+    <hr>
+
+    <div class="contenedor-formulario">
+        <form>
+            <label class="negrita" for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required minlength="3"/>
+            
+            <label class="negrita" for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required minlength="3"/>
+
+            <label class="negrita" for="mail">Email: </label>
+            <input type="email" id="mail" name="mail" placeholder="Escribe tu correo" required/>
+
+            <label class="negrita" for="pais">Pais: </label>
+            <select class="morenito" name="pais" id="pais">
+                <option value="Peru" selected="selected">Peru</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Argentina">Argentina</option>
+                <option value="bolivia">bolivia</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Paraguay">Paraguay</option>
+            </select>
+
+            <label class="negrita" for="comentario">Dejanos tu comentario</label>
+            <textarea id="comentario" name="comentario" placeholder="Dejanos tu comentario" ></textarea> 
+
+            <label class="negrita" for="Motivo">Motivo de contacto: </label>
+            <br>
+            <div class="pintame">
+                <input type="radio" id="Motivo" name="Motivo"> <i>Deseo Aprender</i>
+                <input type="radio" id="Motivo" name="Motivo"> <i>Se ve interesante</i>
+                <input type="radio" id="Motivo" name="Motivo"> <i>Me recomendaron</i>
+                <input type="radio" id="Motivo" name="Motivo"> <i>Soy autodidacta</i>
+                <input type="radio" id="Motivo" name="Motivo"> <i>Explican bien</i>
+                <input type="radio" id="Motivo" name="Motivo"> <i>Deseo profesor personal</i>
+    
+                <input type="submit" value="Enviar datos">
+                <input type="reset" value="Resetea">
+            </div>
+
+
+        </form>
+    </div>
+
+    <div class="mapita">
+        <iframe class="localidad" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61519.305867365896!2d-70.1647003618202!3d-15.486765572242138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9167f3fbefba6acb%3A0x9cc03eb66b71a1b1!2sHostal%20Real%20Divina!5e0!3m2!1ses!2spe!4v1709635932552!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+    
+    <footer class="footer">
+        <p>Derechos Reservados Nelson xiori &copy;-2024</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

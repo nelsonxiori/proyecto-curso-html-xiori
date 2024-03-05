@@ -1,0 +1,152 @@
+
+
+body {
+    font-family: "Berkshire Swash", serif;
+    background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-weight: 600;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li a:hover{
+    color: #F92604;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #E2B923;
+}
+
+.active {
+    background-color: #EEBE0B;
+}
+
+h1 {
+    font-size: 40px;
+    background-color: #494747;
+    padding: 10px;
+    margin: 0;
+    color: #3498DB;
+}
+.sub1{
+    color: #525147;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 15px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 33vw;
+    border-radius: 8%;
+}
+
+.audio{
+    border-radius: 8%;
+}
+
+.colorcito_audio{
+    background-color: #b41a1a;
+}
+
+.videito{
+    border-radius: 4%;
+    border: 1px solid #00BFB2
+    ;
+    width: cover;
+    height: 112vh;
+
+}
+
+div.gallery:hover {
+    border: 2px solid #777;
+    background-color: #25e970;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #b41a1a;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.footer {
+    background-color: #494747;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    font-weight: 900;
+    margin-top: 26em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
